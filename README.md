@@ -5,7 +5,6 @@ An example program that imports the
 trimmed means on samples of 100 integers and 100 floats, and verifies the
 results against R's `mean(x, trim = 0.05)`.
 
-> Replace `Yinan920` with your own GitHub username throughout.
 
 ## What is here
 
@@ -119,10 +118,7 @@ mean is a middle ground, as discussed in Efron and Tibshirani, 1993.)
 
 ## GenAI Tools
 
-This project was developed with assistance from Anthropic's Claude. The model
-was used to draft the package and demo code, generate the unit tests and sample
-data, and write this documentation. All code was reviewed, compiled, and tested
-locally before submission. A log of the conversation is included in
+This project was developed with assistance from Anthropic's Claude.  A log of the conversation is included in
 `docs/genai-log.md`.
 
 ## References
@@ -130,6 +126,4 @@ locally before submission. A log of the conversation is included in
 Efron, B. and Tibshirani, R. J. (1993). *An Introduction to the Bootstrap.*
 Chapman and Hall/CRC.
 
-## License
 
-MIT — see [LICENSE](LICENSE).
